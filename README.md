@@ -7,7 +7,7 @@ to Homework Assignment 5.
 
 
 **Overview**. We'd like to use the continuous-time Markov Model of Atrial fibrillation we developed in 
-[homework assignment 5](https://yale.instructure.com/courses/43583/assignments/92545) to evaluate 
+HW 5 to evaluate 
 the performance of anticoagulation using cost-utility and cost-benefit methods.
 
 **Problem 1: Discounted Cost and Utility (Weight 1)**. Report the average discounted cost and QALY of 
