@@ -3,7 +3,7 @@
 
 **Note**: Feel free to use any part of code from the 
 [solution](https://github.com/HPM573/HW_5_Solution) 
-to [Homework Assignment 5].
+to Homework Assignment 5.
 
 
 **Overview**. We'd like to use the continuous-time Markov Model of Atrial fibrillation we developed in 
