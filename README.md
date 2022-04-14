@@ -15,7 +15,7 @@ patients who start in start "Well" under both scenarios of with and without anti
 - Use the discount rate 3%.
 - Assume that the utility of being in state “Well” is 1, 
 in state “Stroke” is 0.2, and in state “Post-Stroke” is 0.9.
-- The annual cost of being in “Post-Stroke” is $200 and when anticoagulation is used, this cost increases to $750.
+- The annual cost of being in “Post-Stroke” is $200 and when anticoagulation is used, this cost increases to $2200.
 - Stoke results in a one-time cost of $5,000. 
 
 **Problem 2: Change in Outcomes (Weight 1)**. 
