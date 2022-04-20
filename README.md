@@ -21,7 +21,21 @@ in state “Stroke” is 0.2, and in state “Post-Stroke” is 0.9.
 **Problem 2: Change in Outcomes (Weight 1)**. 
 Estimate the change in the expected discounted cost, the expected discounted utility, 
 and the expected number of strokes when the anticoagulation drug is used. 
-Report the 95% confidence intervals for all your estimates.  
+Report the 95% confidence intervals for all your estimates. 
+
+*Note:* To find the present value of an outcome (say, $1000) 
+that occurs at a certain point in time (say, $t$), discounted continuously, 
+you can use the function `pv_single_payment`:
+
+```python
+import SimPy.EconEval as Econ
+
+present_value = Econ.pv_single_payment(
+    payment=1000,
+    discount_rate=0.03,
+    discount_period=t,
+    discount_continuously=True)
+```
 
 **Problem 3: Cost-Utility Analysis (Weight 1)**. Use a cost-utility plane to display 
 the expected discounted incremental utility and cost form the anticoagulation drug. 
