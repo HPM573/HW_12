@@ -28,9 +28,9 @@ that occurs at a certain point in time (say, $t$), discounted continuously,
 you can use the function `pv_single_payment`:
 
 ```python
-import SimPy.EconEval as Econ
+import deampy.econ_eval as econ
 
-present_value = Econ.pv_single_payment(
+present_value = econ.pv_single_payment(
     payment=1000,
     discount_rate=0.03,
     discount_period=t,
